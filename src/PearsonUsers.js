@@ -66,7 +66,7 @@ export default class PearsonUsers extends Component {
 	displayUsers() {
 		let { users } = this.state;
 		return (
-			<ul className="list container clearfix" onClick={this.clearUser}>
+			<ul className="list-group" onClick={this.clearUser}>
 				{
 					users.map((user, index) => <User key={user.id} index={index} user={user} />)
 				}
@@ -77,7 +77,7 @@ export default class PearsonUsers extends Component {
 	render() {
 		return (
 			<div className="pearson-users">
-				<h1 className="container heading">Pearson User Management</h1>
+				<h1 className="header">Pearson User Management</h1>
 				<div className="list-wrapper">
 					{this.displayUsers()}
 				</div>

@@ -3,20 +3,18 @@ body {
 	padding: 0;
 	font-family: sans-serif;
 }
-
-.heading {
+.header {
+	max-width: 750px;
+	margin: 0 auto;
 	font-size: 36px;
 	font-weight: normal;
 	color: #007FA3;
 	padding: 20px 0;
 }
 
-.container {
+.list-group {
 	max-width: 750px;
 	margin: 0 auto;
-}
-
-.list {
 	list-style: none;
 	padding: 0;
 }
@@ -29,11 +27,12 @@ body {
 
 .item {
 	background-color: #fff;
-	width: 212px;
-	float: left;
-	margin: 30px 37px 30px 0;
-	position: relative;
-	height: 122px;
+    width: 212px;
+    position: relative;
+    height: 120px;
+    display: inline-block;
+    margin: 42px 18px 15px;
+    margin-right: 19px;
 }
 
 .clearfix::after {
@@ -55,13 +54,6 @@ body {
 	position: relative;
 }
 
-.delete-user-btn {
-	position: absolute;
-	bottom: 5px;
-	left: 5px;
-	cursor: pointer;
-}
-
 .full-name-wrapper {
 	font-size: 18px;
 	color: #e93939;
@@ -77,4 +69,5 @@ body {
 	background: none;
 	color: #007FA3;
 	font-size: 14px;
+	cursor: pointer;
 }

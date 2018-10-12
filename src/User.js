@@ -2,7 +2,7 @@ import React from 'react';
 
 export default ({ user, index }) => {
     return (
-        <li id={`item-${index + 1}`} className="item">
+        <li className="item">
             <div className="avatar-wrapper">
                 <img src={user.avatar} className="avatar" alt={`${user.first_name} ${user.last_name}`} />
             </div>
