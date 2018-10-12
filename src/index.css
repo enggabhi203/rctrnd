@@ -35,12 +35,6 @@ body {
     margin-right: 19px;
 }
 
-.clearfix::after {
-	display: block;
-	content: "";
-	clear: both;
-}
-
 .avatar {
 	width: 80px;
 	height: 80px;
